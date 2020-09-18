@@ -1,38 +1,333 @@
-.App {
-  text-align: center;
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+
+/** {*/
+/*  margin: 0;*/
+
+/*}*/
+
+/*.background H1 {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  color: white;*/
+/*  border: 2px solid white;*/
+/*  box-sizing: border-box;*/
+/*  margin-right: 10%;*/
+/*  margin-left: 10%;*/
+/*}*/
+
+/*.background H2 {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  color: #0CD18D;*/
+/*  padding: 20px;*/
+/*}*/
+
+
+/*.background {*/
+/*  background: url(./images/pexels-chait-goli-1796705.jpg) no-repeat center fixed;*/
+/*  background-size: cover;*/
+/*  height : 100vh;*/
+/*  width : 100vw;*/
+/*}*/
+
+/*.flex-container{*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  background-color: #87DCFA;*/
+/*  height : 100vh;*/
+/*  width : 100vw;*/
+/*}*/
+
+/*.flex-container input{*/
+/*  border: 1px solid #0C9CD1;*/
+/*  padding:8px;*/
+/*  border-radius: 15px;*/
+/*  margin: 5px;*/
+/*  width: 240px;*/
+/*}*/
+/*.flex-container p{*/
+/*  color: #0C9CD1;*/
+/*  font-size: 14px;*/
+/*}*/
+
+/*.subButton input:hover {*/
+/*  background-color: #4acef8;*/
+/*}*/
+
+/*.subButton input{*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  margin: 40px;*/
+/*  padding: 12px;*/
+/*  width: 160px;*/
+/*  background-color: #0C9CD1;*/
+/*  color: white;*/
+/*  font-weight: bold;*/
+/*  cursor: pointer;*/
+/*  font-size: 16px;*/
+
+
+/*}*/
+
+/*.flex-containerProfile {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  background-color: #87DCFA;*/
+/*  height : 25vh;*/
+/*  width : 100vw;*/
+/*  color: #0C9CD1;*/
+/*  font-size: 20px;*/
+
+/*}*/
+
+/*.HomePage {*/
+/*  background-color: #87DCFA;*/
+/*}*/
+/*.RegForm{*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  margin-bottom: 50px;*/
+/*}*/
+
+/*.RegForm input {*/
+/*  margin: 5px;*/
+/*  border: 1px solid #0C9CD1;*/
+/*  border-radius: 8px;*/
+/*  padding: 5px;*/
+/*}*/
+
+/*.logForm{*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  background-color: #0C9CD1;*/
+/*  width: 100%;*/
+/*  margin-bottom: 50px;*/
+/*}*/
+
+/*.logForm input {*/
+
+/*  margin: 5px;*/
+/*  border: 1px solid #87DCFA;*/
+/*  border-radius: 8px;*/
+/*  padding: 5px;*/
+/*}*/
+
+/*.upperText{*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  padding: 30px;*/
+/*}*/
+
+/*.ProfileFile {*/
+/*  border: 1px solid black;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  flex-direction: column;*/
+/*  border-radius: 5px;*/
+
+/*  margin: 45px;*/
+/*}*/
+
+/*.flex-container h3{*/
+/*  color: #0C9CD1;*/
+/*  padding: 50px;*/
+/*  margin: 10px;*/
+/*}*/
+
+/*.backgroundWall {*/
+
+/*  background-color: #E3FDFD;*/
+/*  height : 100vh;*/
+/*  width : 100vw;*/
+/*  color: #0C9CD1;*/
+/*}*/
+
+/*.backgroundWall h1{*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  color: #0C9CD1;*/
+/*}*/
+
+/*.backgroundWall h2{*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  color: #0C9CD1;*/
+/*  padding: 20px;*/
+/*}*/
+
+
+/*hieronder nieuwe css*/
+
+body{
+  background-color: #E3FDFD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label {
+  display: block;
+  margin-top: 10px;
+  color: #0C9CD1;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  background-color: #c0fdfd;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.jumbotron{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: normal;
+  background-color: #c0fdfd;
 }
 
-.App-link {
-  color: #61dafb;
+.willem{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin: 0px;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.googleMap h1 {
+  color: #17a2b8;
+}
+
+.locate{
+  background: none;
+  border:none;
+}
+
+.compassLogo {
+  width: 30px;
+  height: 30px;
+
+}
+
+.googleMap{
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+
+
+.googleMapWrapper {
+  position: relative;
+  width:100%;
+}
+
+
+.mapHeader{
+  top: 0;
+  width:100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 10;
+}
+
+.InfoWindowBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  width: 90%;
+  height: 120%;
+}
+.uploadFile{
+  padding-bottom: 5px;
+}
+
+.card{
+  background-color: #f2fdfd;
+}
+
+.picturePost{
+  width: 100%;
+  height: 100%;
+}
+
+.locallyLogo{
+  font-family: Phosphate;
+  color: #17a2b8;
+}
+.navbar-brand{
+  font-family: Phosphate;
+}
+
+.ondertitel-post{
+
+  font-size: 13px;
+}
+
+.locatie-omschrijving{
+  font-size: 12px;
+  color: darkgrey;
+}
+
+.picturePostMarker{
+  /*width: 90px;*/
+  /*height: 90px;*/
+
+  resizeMode: 'contain';
+  width: 80px;
+}
+.miniprofile{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+
+}
+
+.avatar-profile {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.info-tekst{
+  font-family: "Myanmar Sangam MN";
+  font-size: 18px;
+  padding: 10px;
+  background-color: #E3FDFD;
+  color: #17a2b8;
 }
